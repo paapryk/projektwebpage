@@ -1,0 +1,1017 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+nav
+{
+    text-align: end;
+    padding-right: 4%;
+    word-spacing: 30px;
+    font-weight: 700;
+    height: auto;
+}
+nav ul
+{
+    list-style-type: none;
+}
+nav ul > li
+{
+    display: inline-block;
+}
+nav ul a
+{
+    text-decoration: none;
+    color: #474343;
+}
+nav ul a:hover
+{
+    color: #0bc0d8;
+    transition: 0.4s;
+}
+
+
+/*MAIN--------------------------*/
+
+.info
+{
+    background-color: #e0e0e0;
+    margin: 0;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+h1.uiux
+{
+    padding-top: 1%;
+    padding-bottom: 3%;
+    text-align: center;
+    font-size: 34px;
+}
+.info p
+{
+    text-align: center;
+    color: #636060;
+    margin: 0;
+    font-size: 17px;
+}
+.productscontainer
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.productsphotos
+{
+    width: 25%;
+    height: auto;
+    overflow: hidden;
+    float: left;
+    
+}
+.productsphotos img
+{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+}
+.productsphotos:hover
+{
+    opacity: 0.6;
+    transition: 0.7s;
+
+}
+.productsphotos:hover img
+{
+    transform: scale(1.2);
+    transition: 0.6s;
+    background-color: #0bc0d8;
+}
+
+
+/*FOOTER--------------------------*/
+
+
+.footerbox
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: auto;
+}
+.footerbox1
+{
+    background-color: black;
+    color: #c9c3c3;
+    width: 21%;
+    padding-top: 3%;
+    padding-bottom: 4%;
+    padding-left: 4%;
+
+}
+.footerbox2
+{
+    background-color: black;
+    color: #c9c3c3;
+    width: 25.2%;
+    padding-top: 3%;
+    padding-bottom: 4%;
+    text-align: center;
+
+
+}
+.footerbox3
+{
+    background-color: black;
+    color: #c9c3c3;
+    width: 7%;
+    padding-top: 3%;
+    padding-bottom: 4%;
+    padding-left: 9.6%;
+    letter-spacing: 1px;
+    line-height: 22px;
+
+  
+}
+.footerbox3 a
+{
+    text-decoration: none;
+    color: #c9c3c3;
+}
+.footerbox3 a:hover
+{
+    color: white;
+    transition: 0.4s;
+}
+
+.footerbox4
+{
+    background-color: black;
+    color: #c9c3c3;
+    width: 10%;
+    padding-top: 3%;
+    padding-bottom: 4%;
+    padding-left: 6.6%; 
+    letter-spacing: 1px;    
+    line-height: 22px;
+}
+.footerbox4 a
+{
+    text-decoration: none;
+    color: #c9c3c3;
+}
+.footerbox4 a:hover
+{
+    color: white;
+    transition: 0.4s;
+}
+
+/*SINGLE-PAGE--------------------------*/
+
+.singlecontainer
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.description
+{
+    width: 38%;
+    background-color: #e0e0e0;
+    color: #636060;
+    padding-top: 4%;
+    padding-left: 4%;
+    padding-right: 8%;
+    padding-bottom: 8%;
+    font-size: 17px;
+    
+}
+h1.projectsingle
+{
+    color: black;
+    font-size: 32px;
+}
+.description1
+{
+    background-color: #c9c3c3;
+    width: 50%;
+    text-align: center;
+}
+.description1 img
+{
+    height: 100%;
+    width: 100%;
+}
+.pagecontainer
+{
+    display: flex;
+    width: 100%;
+}
+.previous
+{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 29.3%;
+    font-weight: 700;
+    color: #474343;
+    padding-left: 4%;
+    font-size: 18px;
+}
+.previous a
+{
+    text-decoration: none;
+    color: #474343;
+}
+.previous a:hover
+{
+    color: #0bc0d8;
+    transition: 0.4s;
+}
+.homepage
+{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 33.3%;
+    font-weight: 700;
+    color: #474343;
+    text-align: center;
+}
+.homepage a
+{
+    text-decoration: none;
+    color: #474343;
+}
+.homepage a:hover
+{
+    color: #0bc0d8;
+    transition: 0.4s;
+}
+.next
+{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    width: 29.3%;
+    font-weight: 700;
+    color: #474343;
+    text-align: end;
+    padding-right: 4%;
+    font-size: 18px;
+}
+.next a
+{
+    text-decoration: none;
+    color: #474343;
+}
+.next a:hover
+{
+    color: #0bc0d8;
+    transition: 0.4s;
+}
+
+
+/*ABOUT--------------------------*/
+
+.infoabout
+{
+    background-color: #e0e0e0;
+    margin: 0;
+    padding-top: 2%;
+    padding-bottom: 3%;
+    background-image: url(tloaboutcorrecto.jpg);
+    background-size: cover;
+}
+h2.uiuxabout
+{
+    padding-top: 1%;
+    padding-bottom: 3%;
+    text-align: center;
+    font-size: 44px;
+    color: black;
+
+}
+.infoabout p
+{
+    text-align: center;
+    color: white;
+    margin: 0;
+    font-size: 17px;
+}
+.moreinfoabout
+{
+    width: 100%;   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.moreinfoaboutbox1
+{
+    background-color: #0bc0d8;
+    width: 6.5%;
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 6%;
+    text-align: right;
+}
+.moreinfoaboutbox2
+{
+    background-color: #0bc0d8;
+    width: 6.5%;
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    letter-spacing: 1px;
+    padding-right: 6%;
+}
+.aboutmecontainer
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.aboutmephoto
+{
+    width: 55%;
+
+}
+.aboutmephoto img
+{
+    width: 100%;
+    height: 100%;
+}
+.aboutmeinfo
+{
+    width: 34%;
+
+    background-color: #e2e7e7;
+    color: #636060;
+    padding-top: 5%;
+    padding-right: 10%;
+    padding-left: 1%;
+    padding-bottom: 2%;
+    letter-spacing: 1px;
+    font-size: 17px;    
+    overflow: hidden;
+}
+.needaproject
+{
+    width: 40%;
+    letter-spacing: 1px;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    padding-left: 30%;
+    padding-right: 30%;
+    text-align: center;
+    font-size: 18px;
+    overflow: hidden;
+
+}
+input[type=submitabout]
+{
+    background-color: #0bc0d8;
+    width: 150px;
+    height: 50px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    border: none;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+input[type=submitabout]:hover
+{
+    background-color: #00e0fd;
+    transition: 0.7s;
+}
+
+
+/*CONTACT--------------------------*/
+
+.containercontact
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.contactdetails
+{
+    background-color: #e0e0e0;
+    width: 38%;
+    padding-left: 4%;
+    padding-right: 8%;
+    padding-top: 4%;
+    padding-bottom: 3%;
+    color: #636060;
+    font-size: 17px;
+}
+.contactform
+{
+
+    background-color: #e0e0e0;
+    max-width: fit-content;
+    width: 41%;
+    padding-left: 5%;
+    padding-right: 4%;
+    padding-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+input[type=text]
+{
+
+    outline: none;
+    color: #636060;
+    font-size: 17px;
+    border: none;
+    border-radius: 4px;
+    padding: 2%;
+    margin: 1%;
+    width: 36.7%;
+}
+
+input[type=textemail]
+{
+
+    outline: none;
+    color: #636060;
+    font-size: 17px;
+    border: none;
+    border-radius: 4px;
+    padding: 2%;
+    margin: 1%;
+    width: 36.7%;
+
+
+}
+
+input[type=text1]
+{
+    outline: none;
+    color: #636060;
+    font-size: 17px;
+    padding: 2%;
+    border: none;
+    border-radius: 4px;
+    margin: 1%;
+    width: 80%;
+
+}
+input[type=text2]
+{
+    outline: none;
+    color: #636060;
+    font-size: 17px;
+    border: none;
+    border-radius: 4px;
+    margin: 1%;
+    padding-top: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 20%;
+    width: 80%;
+}
+input[type=submit]
+{
+    background-color: #0bc0d8;
+    width: 150px;
+    height: 50px;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    border: none;
+    margin: 1%;
+
+}
+input[type=submit]:hover
+{
+    background-color: #00e0fd;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.mapcontainer
+{
+    width: 100%;
+    background-color: #e0e0e0;
+}
+.map
+{
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    width: 92%;
+    background-color: #e0e0e0;
+}
+
+
+
+
+
+@media screen and (min-width: 901px) and (max-width:1100px)
+{   
+    .footerbox1
+    {
+        padding-left: 2%;
+        width: 23%; 
+        font-size: 15px;
+    }
+    .footerbox2
+    {
+        width: 23%; 
+        font-size: 15px; 
+    }
+    .footerbox3
+    {
+        width: 13%; 
+        font-size: 15px;
+        padding-left: 5%;
+        padding-right: 0;
+    }
+    .footerbox4
+    {
+        width: 12%;
+        font-size: 15px;
+        padding-left: 2%;
+        padding-right: 3%;
+    }
+
+    /*ABOUT--------------------------*/
+
+    .aboutmephoto
+    {
+        width: 100%;
+        flex-direction: column;
+    }
+    .aboutmeinfo
+    {
+        width: 100%;
+        flex-direction: column; 
+        font-size: 16px;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+
+    .moreinfoaboutbox1
+    {
+        width: 23%; 
+        font-size: 14px;
+        flex-direction: column;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin: 0;
+    }
+    .moreinfoaboutbox2
+    {
+        width: 27%; 
+        font-size: 17px;
+        flex-direction: column;        
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin: 0;
+    }
+    .needaproject
+    {
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+
+    /*SINGLEPAGE---------------------*/
+    .description
+    {
+
+        width: 100%;
+        flex-direction: column;
+        font-size: 17px;
+        padding-bottom: 8%;
+    }
+    .description1
+    {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    /*CONTACT------------------------*/
+
+    input[type=text]
+    {
+        padding-top: 3%;
+        padding-left: 3%;
+        padding-right: 2%;
+        padding-bottom: 3%;
+    }
+    
+    input[type=textemail]
+    {   
+        padding-top: 3%;
+        padding-left: 3%;
+        padding-right: 2%;
+        padding-bottom: 3%;
+   
+    }
+    input[type=text1]
+    {
+        padding: 3%;
+    }
+
+    input[type=text2]
+    {
+        padding-top: 3%;
+        padding-left: 3%;
+        padding-right: 3%;
+        padding-bottom: 30%;
+    }
+
+}
+
+
+@media screen and (min-width: 681px) and (max-width:900px)
+{
+    /*HOME+FOOTER*/
+
+    .productsphotos
+    {
+        width: 50%;
+        float: none;       
+    }
+    .info
+    {
+        padding: 5%;
+    }
+    .footerbox1
+    {
+        padding-left: 2%;
+        width: 23%; 
+        font-size: 15px;
+    }
+    .footerbox2
+    {
+        width: 23%; 
+        font-size: 15px; 
+    }
+    .footerbox3
+    {
+        width: 13%; 
+        font-size: 15px;
+        padding-left: 5%;
+        padding-right: 0;
+    }
+    .footerbox4
+    {
+        width: 12%;
+        font-size: 15px;
+        padding-left: 2%;
+        padding-right: 3%;
+    }
+
+    /*SINGLE PAGE*/
+
+    .description
+    {
+        width: 100%;
+        flex-direction: column;
+        font-size: 16px;
+        padding-bottom: 3%;
+        padding-top: 1%;
+
+    }
+    h1.projectsingle
+    {
+        font-size: 30px;
+    }
+    .description1
+    {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .previous
+    {
+        font-size: 17px;
+    }
+
+    .next
+    {
+        font-size: 17px;
+    }
+
+    /*ABOUT*/
+    .aboutmephoto
+    {
+        width: 100%;
+        flex-direction: column;
+    }
+    .aboutmeinfo
+    {
+        font-size: 16px;
+        padding-left: 10%;
+        padding-right: 10%;
+        width: 100%;
+        padding-bottom: 5%;
+    }
+    .infoabout
+    {
+        padding: 5%;
+    }
+
+
+    .moreinfoaboutbox1
+    {
+        width: 23%; 
+        font-size: 14px;
+        flex-direction: column;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin: 0;
+    }
+    .moreinfoaboutbox2
+    {
+        width: 27%; 
+        font-size: 17px;
+        flex-direction: column;        
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin: 0;
+    }
+    .needaproject
+    {
+        padding-top: 3%;
+        padding-bottom: 3%;
+        font-size: 16px;
+    }
+
+    /*CONTACT-------------------------*/
+
+    .contactdetails
+    {
+        font-size: 16px;
+    }
+    input[type=text]
+    {
+        width: 80%;
+        padding: 3%;
+        font-size: 16px;
+    }
+    
+    input[type=textemail]
+    {   
+        width: 80%;
+        padding: 3%;  
+        font-size: 16px; 
+    }
+    input[type=text1]
+    {
+        padding: 3%;
+        font-size: 16px;
+    }
+    input[type=text2]
+    {
+        padding: 3%;
+        padding-bottom: 35%;
+        font-size: 16px;
+    }
+
+
+
+}
+@media screen and (max-width: 680px) 
+{
+    /*HOME+FOOTER--------------------------*/
+    .productsphotos
+    {
+        width: 50%;
+        float: none;       
+    }
+    .info
+    {
+        padding: 5%;
+    }
+    h1.uiux 
+    {
+        font-size: 24px;
+    }
+    .info p
+    {
+        font-size: 16px;
+    }
+    .footerbox1
+    {
+        width: 40%; 
+        padding-left: 8%;
+        padding-right: 2%;
+        font-size: 14px;
+        flex-direction: column;
+
+    }
+    .footerbox2
+    {
+        width: 44%; 
+        padding-left: 2%;
+        padding-right: 4%;
+        font-size: 14px;
+        flex-direction: column;
+    }
+    .footerbox3
+    {
+        width: 28.33%;  
+        padding-left: 8%;
+        padding-right: 1%;
+        font-size: 14px;
+        flex-direction: column;
+    }
+    .footerbox4
+    {
+        width: 25.33%;  
+        padding-left: 5%;
+        padding-right: 1%;
+        font-size: 14px;
+        flex-direction: column;
+
+    }
+
+
+    /*SINGLE PAGE -----------------------------------*/
+
+    .description
+    {
+        width: 100%;
+        flex-direction: column;
+        font-size: 15px;
+
+ 
+    }
+    h1.projectsingle
+    {
+        font-size: 28px;
+    }
+    .description1
+    {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .previous
+    {
+        font-size: 14px;
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+    .homepage
+    {
+        padding-top: 2%;
+        padding-bottom: 2%;
+    }
+
+    .next
+    {
+        font-size: 14px;
+        padding-top: 2%;
+        padding-bottom: 2%;
+
+    }
+
+    /*ABOUT----------------------------*/
+
+    .aboutmephoto
+    {
+        width: 100%;
+        flex-direction: column;
+    }
+    .aboutmeinfo
+    {
+        width: 100%;
+        flex-direction: column; 
+        font-size: 14px;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .infoabout
+    {
+        padding: 5%;
+    }
+    .infoabout p
+    {
+        font-size: 16px;
+    }
+    h2.uiuxabout
+    {
+        font-size: 34px;
+    }
+
+    .moreinfoaboutbox1
+    {
+        width: 23%; 
+        font-size: 14px;
+        flex-direction: column;
+        padding-left: 0;
+        padding-right: 2%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin: 0;
+        
+    }
+    
+    .moreinfoaboutbox2
+    {
+        width: 23%; 
+        font-size: 15px;
+        flex-direction: column;        
+        padding-left: 0;
+        padding-right: 2%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin: 0;
+
+    }
+    .needaproject
+    {
+
+        padding-top: 3%;
+        padding-bottom: 3%;
+        font-size: 14px;
+    }
+    /*CONTACT--------------*/
+    
+        
+    .contactdetails
+    {
+        width: 100%;
+        flex-direction: column;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 3%;
+        font-size: 16px;
+    }
+    .contactform
+    {
+        width: 100%;
+        flex-direction: column;
+        padding-left: 4%;
+        padding-right: 4%;
+        padding-top: 0;
+    }
+
+    
+    input[type=text]
+    {
+        width: 90%;
+        font-size: 16px;
+    }
+        
+    input[type=textemail]
+    {   
+        width: 90%; 
+        font-size: 16px;
+
+    }
+    input[type=text1]
+    {
+        width: 90%;
+        font-size: 16px;
+
+    }
+    input[type=text2]
+    {
+        width: 90%;
+        font-size: 16px;
+
+    }
+    input[type=submit]
+    {
+        width: 60%;
+        font-size: 15px;
+        margin-left: 20%;
+        margin-left: 20%;
+    }
+
+}
+
+
+
+
+
+
